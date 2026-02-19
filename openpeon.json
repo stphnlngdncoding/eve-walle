@@ -1,0 +1,153 @@
+{
+  "cesp_version": "1.0",
+  "name": "eve-walle",
+  "display_name": "EVE (Wall-E)",
+  "version": "1.0.0",
+  "description": "Sound pack featuring EVE, the sleek probe robot from Pixar's Wall-E",
+  "author": {
+    "name": "stphnlngdn",
+    "github": "stphnlngdn"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/start1.wav",
+          "label": "EVE online",
+          "sha256": "a187855154d0c693df78ae56e31d8a26123e5f27dc7448d5d48be22a836fd00a"
+        },
+        {
+          "file": "sounds/start2.wav",
+          "label": "EVE activated",
+          "sha256": "059cd4baaa150b02fba56d813590da956303816a0f88a3a60e54fcf6bf7a1864"
+        },
+        {
+          "file": "sounds/start3.wav",
+          "label": "EVE ready",
+          "sha256": "835c4652a4c9580a622ec0dbdccfe9ae3edf6e3ed8f65356f174f9e73d4a9162"
+        },
+        {
+          "file": "sounds/start4.wav",
+          "label": "EVE scanning",
+          "sha256": "67de02b8d6b43f8b187a821a35b34203ca178a637738c92627e52b1c6fd63e52"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/ack1.wav",
+          "label": "Acknowledged",
+          "sha256": "9a465da2c30907bdc1aacda24766d6ee54bd4bfbd60e38c2527b874c1cc71ad3"
+        },
+        {
+          "file": "sounds/ack2.wav",
+          "label": "Processing",
+          "sha256": "c3cd69b7179cdd578be37b496595f5aa2dedc5942cad74779588864ab4606203"
+        },
+        {
+          "file": "sounds/ack3.wav",
+          "label": "Directive",
+          "sha256": "d9e161fb08cf60a723ae6705f35b6f108d75b323be2a8f2788ba5ef2982cec3a"
+        },
+        {
+          "file": "sounds/ack4.wav",
+          "label": "Understood",
+          "sha256": "92dc53a111dbefeb5c99cc73b84714563bc7d1a515ef668e5df9fae8a4543a12"
+        },
+        {
+          "file": "sounds/ack5.wav",
+          "label": "Affirmative",
+          "sha256": "43eecf2e721920de4833a219ff98a6fd91501b327940446735fb5a6e1d385ff3"
+        },
+        {
+          "file": "sounds/ack6.wav",
+          "label": "Working",
+          "sha256": "3b06e3df74449558d0d1b50fa1f0b686adbdf199d91dea30ee94c050b0d42687"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/done1.wav",
+          "label": "Complete",
+          "sha256": "54158577a421bbec0ccb39a85fa9c0e4690ac52500d83138b0d5af8020f0286c"
+        },
+        {
+          "file": "sounds/done2.wav",
+          "label": "Task finished",
+          "sha256": "cdc1edfd11052269499a61a1355fd76b803220e434c1353a8256ce1edb6b1be5"
+        },
+        {
+          "file": "sounds/done3.wav",
+          "label": "Done",
+          "sha256": "c2093d66cbfea719661166ec65867687b1f341ee5e8ea2df564b2cbe3dead995"
+        },
+        {
+          "file": "sounds/done4.wav",
+          "label": "Success",
+          "sha256": "bc5b6290ec144dbcbe5b61ef2fb7b6415cc4aea31669b4273bf917248e10fdcd"
+        },
+        {
+          "file": "sounds/done5.wav",
+          "label": "Plant!",
+          "sha256": "2623cf4098acb7229ae6479dd69c2ce0652a872ab4ddd2415e1ceff10c1324fe"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/error1.wav",
+          "label": "Error detected",
+          "sha256": "1c523ca3969c2d0ed0cc4ceb40f16f8f8ba1277d3c12ab338fe27280f04d967a"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/input1.wav",
+          "label": "Input needed",
+          "sha256": "1c15838709af6c0ee9ed00f78c618aec9ae1768f82c0b950dfc00dace74d5118"
+        },
+        {
+          "file": "sounds/input2.wav",
+          "label": "Awaiting response",
+          "sha256": "8082e1e9a813b17c57507de8662ed1bf5c390f1194abe94b6bb0cab8a70fde0a"
+        },
+        {
+          "file": "sounds/input3.wav",
+          "label": "Query",
+          "sha256": "56c482b1c01a6ea8b8fec30ec074eecc3f1bcb1f5fa63352e8d874dfd083a345"
+        },
+        {
+          "file": "sounds/input4.wav",
+          "label": "Wall-E?",
+          "sha256": "426089de6470b0d55983d896e305296ea54396969db05a9748250445d3ffc3dc"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/limit.wav",
+          "label": "Resource limit",
+          "sha256": "fe04989ebfcdeb2758360b1fa9bcd82de987d7b7030a83344e7b7ffb03a670ef"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/spam.wav",
+          "label": "Too many requests",
+          "sha256": "105b997ae1d52e1be43c1fda615f679726a40b87e90559b99e52c72265ccacf7"
+        }
+      ]
+    }
+  }
+}
