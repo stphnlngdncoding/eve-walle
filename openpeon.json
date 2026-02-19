@@ -2,7 +2,7 @@
   "cesp_version": "1.0",
   "name": "eve-walle",
   "display_name": "EVE (Wall-E)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sound pack featuring EVE, the sleek probe robot from Pixar's Wall-E",
   "author": {
     "name": "stphnlngdn",
@@ -72,6 +72,34 @@
     "task.complete": {
       "sounds": [
         {
+          "file": "sounds/input1.wav",
+          "label": "Input needed",
+          "sha256": "1c15838709af6c0ee9ed00f78c618aec9ae1768f82c0b950dfc00dace74d5118"
+        },
+        {
+          "file": "sounds/input2.wav",
+          "label": "Awaiting response",
+          "sha256": "8082e1e9a813b17c57507de8662ed1bf5c390f1194abe94b6bb0cab8a70fde0a"
+        },
+        {
+          "file": "sounds/input3.wav",
+          "label": "Query",
+          "sha256": "56c482b1c01a6ea8b8fec30ec074eecc3f1bcb1f5fa63352e8d874dfd083a345"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/error1.wav",
+          "label": "Error detected",
+          "sha256": "1c523ca3969c2d0ed0cc4ceb40f16f8f8ba1277d3c12ab338fe27280f04d967a"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
           "file": "sounds/done1.wav",
           "label": "Complete",
           "sha256": "54158577a421bbec0ccb39a85fa9c0e4690ac52500d83138b0d5af8020f0286c"
@@ -95,39 +123,6 @@
           "file": "sounds/done5.wav",
           "label": "Plant!",
           "sha256": "2623cf4098acb7229ae6479dd69c2ce0652a872ab4ddd2415e1ceff10c1324fe"
-        }
-      ]
-    },
-    "task.error": {
-      "sounds": [
-        {
-          "file": "sounds/error1.wav",
-          "label": "Error detected",
-          "sha256": "1c523ca3969c2d0ed0cc4ceb40f16f8f8ba1277d3c12ab338fe27280f04d967a"
-        }
-      ]
-    },
-    "input.required": {
-      "sounds": [
-        {
-          "file": "sounds/input1.wav",
-          "label": "Input needed",
-          "sha256": "1c15838709af6c0ee9ed00f78c618aec9ae1768f82c0b950dfc00dace74d5118"
-        },
-        {
-          "file": "sounds/input2.wav",
-          "label": "Awaiting response",
-          "sha256": "8082e1e9a813b17c57507de8662ed1bf5c390f1194abe94b6bb0cab8a70fde0a"
-        },
-        {
-          "file": "sounds/input3.wav",
-          "label": "Query",
-          "sha256": "56c482b1c01a6ea8b8fec30ec074eecc3f1bcb1f5fa63352e8d874dfd083a345"
-        },
-        {
-          "file": "sounds/input4.wav",
-          "label": "Wall-E?",
-          "sha256": "426089de6470b0d55983d896e305296ea54396969db05a9748250445d3ffc3dc"
         }
       ]
     },
